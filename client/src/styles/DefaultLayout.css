@@ -23,7 +23,12 @@
   margin: 10px;
   overflow: auto;
 }
-
+.site-layout{
+  min-height: 100vh;
+  background: white;
+  width: 100vw;
+  overflow: scroll;
+}
 .ant-layout-has-sider {
   padding: 5px !important;
 }
@@ -61,4 +66,19 @@
 .cart-item p {
   margin-top: 10px;
   font-weight: bold;
+}
+
+.navbarbg-custom{
+  background: #001628 !important;
+}
+
+.navbar{
+  padding: 0;
+}
+.navheader-custom{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid white;
 }

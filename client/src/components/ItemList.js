@@ -14,8 +14,8 @@ const ItemList = ({ item }) => {
   return (
     <div>
       <Card
-        style={{ width: 240, marginBottom: 20 }}
-        cover={<img alt={item.name} src={item.image} style={{ height: 200 }} />}
+        style={{ width: "100%", marginBottom: 20 }}
+        cover={<img alt={item.name} src={item.image} style={{ height: 100 }} />}
       >
         <Meta title={item.name} />
         <div className="item-button">

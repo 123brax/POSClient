@@ -16,9 +16,12 @@ export const rootReducer = (state = intialState, action) => {
         loading: false,
       };
     case "ADD_TO_CART":
+      var cartItems= state.cartItems.filter(
+        (item) => item._id !== action.payload._id
+      )
       return {
         ...state,
-        cartItems: [...state.cartItems, action.payload],
+        cartItems: [...cartItems, action.payload],
       };
     case "UPDATE_CART":
       return {
