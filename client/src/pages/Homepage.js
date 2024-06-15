@@ -9,27 +9,23 @@ const Homepage = () => {
   const [selecedCategory, setSelecedCategory] = useState("drinks");
   const categories = [
     {
-      name: "drinks",
+      name: "Juices",
       imageUrl: "https://cdn-icons-png.flaticon.com/512/430/430561.png",
     },
     {
-      name: "rice",
-      imageUrl: "https://cdn-icons-png.flaticon.com/512/3174/3174880.png",
+      name: "Shakes",
+      imageUrl: "https://img.icons8.com/?size=100&id=84304&format=png&color=000000",
     },
     {
-      name: "noodles",
-      imageUrl: "https://cdn-icons-png.flaticon.com/512/1471/1471262.png",
+      name: "Coffee",
+      imageUrl: "https://img.icons8.com/?size=100&id=N3RgkSbpOEMx&format=png&color=000000",
     },
     {
-      name: "drinks",
-      imageUrl: "https://cdn-icons-png.flaticon.com/512/430/430561.png",
+      name: "Eatable",
+      imageUrl: "https://img.icons8.com/?size=100&id=82486&format=png&color=000000",
     },
     {
-      name: "rice",
-      imageUrl: "https://cdn-icons-png.flaticon.com/512/3174/3174880.png",
-    },
-    {
-      name: "noodles",
+      name: "Meal",
       imageUrl: "https://cdn-icons-png.flaticon.com/512/1471/1471262.png",
     },
   ];
