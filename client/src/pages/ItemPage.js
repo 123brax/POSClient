@@ -157,7 +157,7 @@ const ItemPage = () => {
             </Form.Item>
             <Form.Item name="category" label="Category">
               <Select>
-                <Select.Option value="">Juices</Select.Option>
+                <Select.Option value="Juices">Juices</Select.Option>
                 <Select.Option value="Shakes">Shakes</Select.Option>
                 <Select.Option value="Coffee">Coffee</Select.Option>
                 <Select.Option value="Eatable">Eatable</Select.Option>
